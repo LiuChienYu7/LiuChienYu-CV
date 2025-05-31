@@ -31,6 +31,7 @@ body {
 
 #start_content_left{
     max-width: 50%;
+    padding-right: 80px;
 }
 
 .subtitle {
@@ -54,6 +55,10 @@ body {
 }
 
 /* image */
+#start_content_right{
+    padding: 20px;
+    margin-left: 30px;
+}
 #cv_photo{
     width: 200px;
     height: 600px;
