@@ -19,6 +19,19 @@ h1 {
     font-weight: 700;
 }
 
+#start_content{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#cv_photo{
+    width: 334px;
+    height: 728px;
+    object-fit: cover; /*cover 就是將照片填滿我設定的框框大小*/
+    object-position: 50% 50%; /*將照片放在框框的中間*/
+}
+
 /* 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
