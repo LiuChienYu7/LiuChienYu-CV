@@ -14,23 +14,49 @@ body {
     box-sizing: border-box;
   }
 
-h1 {
-    color: black;
-    font-weight: 700;
-}
-
+/* 網站點進去馬上看到的內容 */
 #start_content{
-    padding-left: 100px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px;
 }
 
+#start_content_left{
+    max-width: 50%;
+}
+
+.institution {
+    background-color: #2a4073;
+    color: white;
+    padding: 0.2rem 0.4rem;
+  }
+
+.main-text {
+    margin-top: 2rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    color: #222;
+  }
+
+  
+.highlight-bold{
+    font-weight: 800;
+    color: black;
+}
+
+/* image */
 #cv_photo{
     width: 334px;
     height: 728px;
     object-fit: cover; /*cover 就是將照片填滿我設定的框框大小*/
     object-position: 50% 50%; /*將照片放在框框的中間*/
 }
+/* end of image */
+/* end of 網站點進去馬上看到的內容 */
+
+
 
 /* 
 * { margin: 0; padding: 0; box-sizing: border-box; }
