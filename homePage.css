@@ -129,6 +129,23 @@ h1{
 }
 /* end of sencond layer */
 
+/* project layer */
+.project {
+    background: #fff3e0;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .project h3 {
+    margin-bottom: 0.5rem;
+  }
+  .project a {
+    color: #00695c;
+    text-decoration: none;
+  }
+/* end of project layer */
+
 /* 尺寸調整 */
 @media screen and (max-width: 768px) {
     .full-banner {
