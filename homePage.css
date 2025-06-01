@@ -25,7 +25,7 @@ body {
 /* end of navbar */
 
 /* 網站點進去馬上看到的內容 */
-#start_content{
+.content{
     column-gap: var(--margin);
     display: flex;
     flex-direction: var(--items-direction);
@@ -101,21 +101,24 @@ h1{
 }
 
 .highlight-color{
+    font-weight: 450;
     color: #b8a07e;
 }
 
 .highlight-special{
+    font-weight: 450;
     color: #102E50;
 }
 
 .paragraph{
-    max-width: 45%;
+    font-weight: 400;
+    width: 45%;
     padding: 0px 20px 0px;
     color: #898989;
 }
 
 .list{
-    max-width: 55%;
+    width: 55%;
     background-color: bisque;
 }
 /* end of sencond layer */
