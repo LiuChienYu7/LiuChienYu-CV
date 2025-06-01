@@ -35,14 +35,14 @@ body {
 }
 
 #start_content_left{
-    max-width: 50%;
+    max-width: 65%;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    flex: 1;
-    /* padding: 100px; */
+    /* flex: 1; */
+    padding-left: 100px;
 }
 
 .subtitle {
@@ -52,7 +52,7 @@ body {
 }
 
 .main-text {
-    font-size: 60px;
+    font-size: 70px;
     margin-top: 2rem;
     font-size: 2rem;
     line-height: 2.8rem;
@@ -66,11 +66,12 @@ body {
 
 /* image */
 #start_content_right{
+    width: 35%;
     padding: 20px;
     margin-left: auto;
 }
 #cv_photo{
-    width: 400px;
+    width: 100%;
     height: 90vh; /* 圖片高度 */
     object-fit: cover; /*cover 就是將照片填滿我設定的框框大小*/
     object-position: 50% 50%; /*將照片放在框框的中間*/
