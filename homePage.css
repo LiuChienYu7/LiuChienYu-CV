@@ -111,14 +111,17 @@ h1{
 }
 
 .paragraph{
+    height: max-content;
     font-weight: 400;
     font-size: 1.7em;
+    line-height: 2.2rem;
     width: 45%;
     padding: 0px 20px 0px;
     color: #898989;
 }
 
 .list{
+    height: max-content;
     width: 55%;
     font-weight: 400;
     color: white;
