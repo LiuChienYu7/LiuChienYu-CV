@@ -36,7 +36,11 @@ body {
 
 #start_content_left{
     max-width: 50%;
-    text-align: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
     flex: 1;
     /* padding: 100px; */
 }
@@ -48,7 +52,7 @@ body {
 }
 
 .main-text {
-    font-size: 40px;
+    font-size: 60px;
     margin-top: 2rem;
     font-size: 2rem;
     line-height: 2.8rem;
@@ -67,13 +71,27 @@ body {
 }
 #cv_photo{
     width: 400px;
-    height: 70vh; /* 圖片高度 */
+    height: 90vh; /* 圖片高度 */
     object-fit: cover; /*cover 就是將照片填滿我設定的框框大小*/
     object-position: 50% 50%; /*將照片放在框框的中間*/
 }
 /* end of image */
 /* end of 網站點進去馬上看到的內容 */
 
+/* 尺寸調整 */
+@media screen and (max-width: 768px) {
+    .full-banner {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .banner-img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+/* end of 尺寸調整 */
 
 
 /* 
