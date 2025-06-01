@@ -92,6 +92,10 @@ h1{
 /* 第二層 this is me */
 .subtitle{
     font-size: 2em;
+    font-weight: 600;
+    color: black;
+    justify-content: center;
+    padding: 10px 0px 10px;  /*top right&left bottom*/
 }
 
 /* 尺寸調整 */
